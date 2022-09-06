@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+// Variable 
+// assigning a variable to a data type for easy remembrance
+   int a,b;
+   string name;
+   name="Ram";
+   a=23,b=17;
+   cout<<name<<" is"<<b<<"short of turning 40 years old i.e. He is "<<a<<"now."<<endl;
+   // this returns withoout space
+   cout<<name<<" is "<<b<<" short of turning 40 years old i.e. He is "<<a<<" now."<<endl;
+   // Had to adjust the spacing in the text/string.
+   //Another example with where in many instances name and vlaues are used.
+    return 0;
+}
