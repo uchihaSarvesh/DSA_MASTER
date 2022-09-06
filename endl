@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+// Basic syntax to know what is endl
+// Creating a triangle using only end line statement and cout
+     cout<<"   /|"<<endl;
+     cout<<"  / |"<<endl;
+     cout<<" /  |"<<endl;
+     cout<<"/___|"<<endl;
+    return 0;
+}
