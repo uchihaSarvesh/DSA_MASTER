@@ -1,0 +1,7 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout<<"Hello World!!!Probablt my 100th time writing this since I started my first coding class T_T"<<endl;
+    return 0;
+}
