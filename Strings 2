@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    // strings here
+    string phrase="Giraffe Academy";
+    string phrasesub;
+    cout<<phrase<<endl;
+    //length function
+    cout<<phrase.length()<<endl;
+    //Accessing a certain character
+    cout<<phrase[0]<<endl;
+    cout<<phrase[2]<<endl;
+    //Changing a certain Character
+    phrase[0]='J';
+    cout<<phrase<<endl;
+    phrase[0]='G';
+    cout<<phrase<<endl;
+    //find a certain character, need to give arguements. First is a string and the next one is the index after which you want to find starting searching for the string. The result is at which point your string starts in the parent one.
+    cout<<phrase.find("Academy",3)<<endl;
+    //substring. Takes two parameters. One is starting index and the next parameter is how much length you want to take.
+    phrasesub=phrase.substr(8,3);
+    cout<<phrasesub;
+    return 0;
+}
