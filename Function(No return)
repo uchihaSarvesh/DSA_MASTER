@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+// creating a function where a return statement is not necessary
+// in the paranthesis it can take any number of arguements you assign
+void sayhi(string name, int age)
+{
+    cout<<"Hello Ram"<<endl;
+    cout<<"Your Full name is "<<name<<"Your age is "<<age<<endl;
+    
+}
+int main() {
+    // Write C++ code here
+    //function without return statement
+    sayhi("Sarvesh", 23);
+    sayhi("Raj", 15);
+    
+    
+   return 0;
+}
