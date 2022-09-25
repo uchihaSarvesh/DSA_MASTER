@@ -1,0 +1,38 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+    // Write C++ code here
+    // numbers here
+    //Two types of numbers whole(int) and decimal(double and float)
+    cout<<5+7<<endl;
+    cout<<5-7<<endl;
+    cout<<5*7<<endl;
+    cout<<14/7<<endl;//Division
+    cout<<14%7<<endl;//Gives remiander
+    //Bodmas rule following
+    int wnum=5;
+    double dnum=5.5;
+    //Incrementing the value of wnum by 1 use++
+    wnum++;
+    cout<<wnum<<endl;
+    //Decreasing the value of wnum by 1 use --
+    wnum=85;
+    cout<<wnum--<<endl;
+    // Math operations use math symbol,= for doing the math operation
+    wnum+=80;//You can use -,*,/ here
+    cout<<wnum<<endl;
+    //Math with two integers will always yield integer only. Math with decimal and integer will yield decimal.
+    cout<<25.5/7<<endl;
+    cout<<25/7<<endl;
+    //Importing math function use cmath library
+    // pow takes two arguements both are integers
+    cout<<pow(2,5)<<endl;
+    cout<<pow(3,3)<<endl;
+    cout<<sqrt(36)<<endl;//square root
+    cout<<round(5.8)<<endl;// rounds up the value
+    cout<<floor(5.8)<<endl;//rounds down the value
+    cout<<fmax(3,10)<<endl;// finds the maximum value between the two
+    cout<<fmin(3,10)<<endl;// finds the minimum value between the two
+    return 0;
+}
