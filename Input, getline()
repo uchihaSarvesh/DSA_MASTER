@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Write C++ code here
+    //Input
+    int age;
+    string name;
+    cout<<"Enter your age"<<endl;
+    cin>>age;
+    cout<<"Your age is "<<age<<"."<<endl;
+    // For string there is a different method. Use getline(). It takes two arguements one is cin, string
+    cout<<"Enter your name"<<endl;
+    getline(cin, name);
+    cout<<"Your name is "<<name<<"."<<endl;
+
+
+   return 0;
+}
