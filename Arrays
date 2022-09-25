@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Write C++ code here
+    //ARRAY
+    int nums[20]={4,5,6,7,8,9,1,2,3};
+    cout<<nums[0];
+    nums[11]=25;
+    cout<<nums[11];
+   return 0;
+}
