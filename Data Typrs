@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    char a='S';
+    int b=9, f = -5;
+    string c="Sarvesh";
+    double d = 9.01;
+    
+    cout<<a<<b<<c<<d;
+        
+    return 0;
+}
