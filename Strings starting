@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main() {
+    //strings here 
+    //Strings are a couple of charcters in a line
+    cout<<"Giraffe Academy"<<endl;
+    //endl is end line
+    cout<<Giraffe Academy<<;
+    cout<<"Hello"<<endl;
+    //\n also represents end of the line
+    cout<<"Ram\n";
+    cout<<"is the worst"<<endl;
+    return 0;
+}
