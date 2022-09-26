@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+// creating a function where a return statement is not necessary
+// in the paranthesis it can take any number of arguements you assign
+int sum(int a, int b)
+{
+    // program to sum numbers using a function
+    int result = a+b;
+    return result;
+}
+int main() {
+    // Write C++ code here
+    //function with return statement
+    int a = sum(2, 3);
+    cout<<a;
+    
+    
+    
+   return 0;
+}
