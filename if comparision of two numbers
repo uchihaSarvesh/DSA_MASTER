@@ -1,0 +1,28 @@
+#include <algorithm>
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main() {
+	// Your code goes here;
+    int a,b;
+    cout<<"Enter two numbers"<<endl;
+    cin>>a;
+    cin>>b;
+    
+    if(a>b)
+    {
+        cout<<a<<" is the larger number";
+    }
+    else if(a<b)
+    {
+        cout<<b<<" is the larger number";
+    }
+    else if(a==b)
+    {
+        cout<<"Both "<<a<< "and"<<b<<" are equal.";
+    }
+	return 0;
+}
+// else does not take conditions, it  only works if you are there is a if statement above it.
