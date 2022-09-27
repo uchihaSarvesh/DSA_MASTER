@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main() {
+	// Your code goes here;
+	//Swapping a number without using a third variable
+	int a,b;
+	cout<<"Enter first number\n";
+	cin>>a;
+	cout<<"Enter second number\n";
+	cin>>b;
+	cout<<"Before swapping the numbers are "<<a<<""<<b<<"."<<endl;
+	a=a+b;
+	b=a-b;
+	a=a-b;
+	cout<<"After swapping the numbers are "<<a<<"&"<<b<<"."<<endl;
+
+ 
+   return 0;
+}
