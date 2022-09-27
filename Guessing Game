@@ -1,0 +1,22 @@
+int main() {
+	// Your code goes here;
+int guesscount =1;
+int guessnum;
+int correctnum=7;
+
+
+      while(correctnum!=guessnum && guesscount<=3)
+         {
+	         cout<<"Enter your guess"<<endl;
+			 cin>>guessnum;
+			 guesscount++;
+         }
+	  if (guesscount<3){
+	      cout<<"You win"<<endl;
+	  }
+	  else{
+	      cout<<"You lose"<<endl;
+	  }
+ 
+   return 0;
+}
