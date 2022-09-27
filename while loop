@@ -1,1 +1,14 @@
-
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    // while loop
+    int index=1;
+    while(index<=5)
+    {
+        cout<<index<<endl;
+        index++;
+    }
+    
+   return 0;
+}
