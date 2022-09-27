@@ -9,6 +9,12 @@ int main() {
         cout<<index<<endl;
         index++;
     }
+    // do and while
+    do
+    {
+        cout<<index<<endl;
+        index++;
+    }while(index<=10);
     
    return 0;
 }
